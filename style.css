@@ -1,0 +1,152 @@
+
+h1 {
+    font-family: 'El Messiri', sans-serif;
+    color: #0b3b63;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'El Messiri', sans-serif;
+    color: #026418;
+    font-size: 2rem;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    background-color: #d1d371;
+    margin-left: 10rem;
+    width: 75%;
+}
+
+nav {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    padding-right: 3rem;
+}
+
+nav ul li {
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+#navoptions {
+    text-align: right;
+    padding-top: 3rem;
+}
+
+#hero img {
+    height: 15rem;
+    width: auto;
+}
+
+#hero {
+    display: flex;
+   /* grid-template-columns: 67% 33%;*/
+}
+
+#hero p {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+}
+
+#projects img {
+    height: 15rem;
+    width: auto;
+}
+
+#projects p {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+#projects button {
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+
+#projects ul {
+    list-style-image: url("rightarrow.jpeg");
+}
+
+#build {
+    display: inline-flex;
+}
+
+#stylesheet {
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+  background-color: #d1d371;
+  font-weight: bold;
+}
+
+#styleguide {
+    display: none;
+    overflow: hidden;
+    padding: 0 18px;
+    background-color: #d1d371;
+}
+
+#parkwaychess {
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    background-color: #d1d371;
+    font-weight: bold;
+
+}
+
+#chessclub {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #d1d371;
+}
+
+#cafepage {
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    background-color: #d1d371;
+    font-weight: bold;
+
+}
+
+
+#cafesukato {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #d1d371;
+}
+
+#contacts li {
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    justify-content: space-between;
+
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 4rem;
+    color: #411602;
+}

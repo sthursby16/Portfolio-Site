@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<link href="style.css" rel="stylesheet">
+<script src="script.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;700&family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<nav>
+    <h1>Stephen Thursby</h1>
+    <ul id="navoptions">
+        <li><a href="index.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<h2>About Me</h2>
+
+<div id="hero">
+    <img src="Thursby face.jpg" alt="the author's face" />
+    <p>Hi! My name is Stephen Thursby, and I've been programming since April 2022.
+        <br><br>In addition to coding, I love reading, listening to and playing music, cooking, 
+        and running. I also have a wonderful wife, twins, and three cats!</p>
+</div>
+
+<div id="projects">
+<h2>Projects</h2>
+    
+    <ul>
+    <li><button type="button" id="stylesheet" onclick="expandCollapse1()">Style Sheet</button>
+            <div id="styleguide">
+            <img src="styleguide.png" alt="HTML style guide screenshot">
+            <p>I created a stylesheet with my favorite colors, fonts, and text sizes for designing
+            webpages.</p>
+                <div id="build">
+                <p>Built with:</p>
+                <img src="htmlcsslogo2.png" style="height:4rem">
+                </div>
+            </div></li>
+    <li><button type="button" id="parkwaychess" onclick="expandCollapse2()">Parkway Chess Club</button>
+            <div id="chessclub">
+            <img src="chessclub.png" alt="Chess Club homepage screenshot">
+            <p>I love playing chess, so I designed a homepage for a fictional chess club.</p>
+                <div id="build">
+                <p>Built with:</p>
+                <img src="htmlcsslogo2.png" style="height:4rem">
+                </div>
+            </div></li>
+    <li><button type="button" id="cafepage" onclick="expandCollapse3()">Cafe Sukato</button>
+            <div id="cafesukato">
+            <img src="cafesukato.png" alt="Cafe Sukato homepage screenshot">
+            <p>If I owned a business, I would probably want to own a cafe, so I designed a page
+                for a fictional cafe that serves other tasty beverages too!</p>
+                <div id="build">
+                <p>Built with:</p>
+                <img src="htmlcsslogo2.png" style="height:4rem">
+                </div>
+            </div></li>
+    </ul>
+</div>
+
+</body>
+
+<footer>
+<h3>Sukato Productions, MMXXII</h3>
+
+</footer>
+
+</html>
